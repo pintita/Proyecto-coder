@@ -48,17 +48,16 @@ h1{
   
   .categorias {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
-  
+     border: solid;
+    border-color: black;
   }
   .categorias ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
   }
   
   .categorias li {
@@ -95,7 +94,6 @@ h1{
   footer{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     align-content: stretch;
     justify-content: space-around;
     align-items: flex-start;
@@ -124,10 +122,43 @@ h1{
     flex-wrap: wrap;
 
   }
-  
+  img{
+    width: 100%;
+    
+  }
+.imagenes{
+  width: 32%;
+  padding: 10px;
+}
+.footerSection{
+  border: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-bottom: 0px;
+  padding-right: 35px;
+}
+.itemCategorias a{
+  text-decoration: none;
+  color:red;
+}
+.formulario {
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
 
-  
+}  
+label{
+  padding:10px;
+}
+.botonSubmit{
+  padding: 10px;
+  margin: 10px;
+}
   @media screen and (max-width: 480px) {
+    .imagenes{
+      width: 100%;
+    }
     .titulo {
       width: 100%;
     }
@@ -162,11 +193,12 @@ h1{
     footer{
         flex-direction: column;
     }
-    .formulario{
-        display: none;
-    }
+    
     .tituloHeader {
         
         justify-content: center;
+  }
+  .footerSection{
+    border-right: 0px;
   }
 }
