@@ -7,6 +7,8 @@ box-sizing: border-box
 
 h1{
     color: blue;
+    font-family: 'Ubuntu', sans-serif;;
+   
 }
 
 section article h3{
@@ -45,6 +47,12 @@ h1{
     padding-left: 5%;
     padding-right: 5%;
   }
+
+  .art-contacto {
+    padding: 2%;
+    color: dimgray;
+
+  }
   
   .categorias {
     display: flex;
@@ -77,20 +85,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
   }
-  /* .section {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-  } */
-  
-  /* .grid-container {
-    display: contents;
-    align-items: center !important;
-  } */
-  
+ 
   footer{
     display: flex;
     flex-direction: row;
@@ -124,11 +120,13 @@ h1{
   }
   img{
     width: 100%;
-    
   }
+
+
 .imagenes{
   width: 32%;
   padding: 10px;
+ 
 }
 .footerSection{
   border: solid;
@@ -155,6 +153,8 @@ label{
   padding: 10px;
   margin: 10px;
 }
+
+
   @media screen and (max-width: 480px) {
     .imagenes{
       width: 100%;
