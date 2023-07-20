@@ -1,15 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
-
 
 h1 {
   color: blue;
-  font-family: 'Ubuntu', sans-serif;
-  ;
-
+  font-family: "Ubuntu", sans-serif;
 }
 
 section article h3 {
@@ -20,8 +17,6 @@ h1 {
   background-color: yellow;
   width: 380px;
 }
-
-
 
 .color-violeta {
   color: blueviolet;
@@ -53,7 +48,6 @@ h1 {
 .art-contacto {
   padding: 2%;
   color: dimgray;
-
 }
 
 .img-nosotros {
@@ -78,7 +72,6 @@ h1 {
 
 .categorias li {
   margin-right: 10px;
-
 }
 
 .titulo {
@@ -87,7 +80,6 @@ h1 {
   align-items: center;
   margin: auto;
   width: 70%;
-
 }
 
 .productos {
@@ -118,27 +110,22 @@ footer {
   --bs-navbar-nav-link-padding-x: 1.5rem !important;
 }
 
-
 .section {
-
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   align-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-
 }
 
 img {
   width: 100%;
 }
 
-
 .imagenes {
   width: 32%;
   padding: 10px;
-
 }
 
 .footerSection {
@@ -159,7 +146,6 @@ img {
   flex-direction: column;
   align-items: flex-start;
   margin-left: 10px;
-
 }
 
 label {
@@ -171,56 +157,44 @@ label {
   margin: 10px;
 }
 
-
 @media screen and (max-width: 480px) {
   .imagenes {
     width: 100%;
   }
-
   .titulo {
     width: 100%;
   }
-
   .section {
     flex-direction: column;
-
   }
-
   .tituloHeader {
     flex-wrap: wrap;
   }
-
-  .tituloHeader>div {
+  .tituloHeader > div {
     margin-bottom: 10px;
   }
-
   .navbar-collapse {
     flex-direction: column;
   }
-
   .navbar-nav {
     width: 100%;
     text-align: center;
   }
-
   .navbar-nav li {
     margin-right: 0;
   }
-
   .navbar-nav li a {
     padding: 10px;
   }
-
   footer {
     flex-direction: column;
   }
-
   .tituloHeader {
-
     justify-content: center;
   }
-
   .footerSection {
     border-right: 0px;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
