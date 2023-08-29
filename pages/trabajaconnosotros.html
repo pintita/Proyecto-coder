@@ -9,7 +9,7 @@
 
   <title>Trabaja con nosotros</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">>
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 
 <body>
@@ -34,40 +34,37 @@
 
   <main>
     <section>
-      <img class="img-nosotros" src="../img/trabaja-con-nosotros.jpg" alt="Equipo" />
+      <div class="divImg">
 
+      <img class="img-nosotros" src="../img/trabaja-con-nosotros.jpg" alt="Equipo" />
+      </div>
       <article>
 
         <h2> Completa los datos y envianos tu curriculum</h2>
 
         <form class="formulario" action="">
-          <label>Nombre</label>
-          <input type="text" placeholder="Ingrese su nombre" />
+          <label for="Name">Nombre</label>
+          <input type="text" id="Name" name="Name" placeholder="Ingrese su nombre" />
 
-          <label>Apellido</label>
+          <label for="lastName">Apellido</label>
+          <input type="text" id="lastName" name="lastName"placeholder="Ingrese su apellido" />
 
-          <input type="text" placeholder="Ingrese su apellido" />
+          <label for="dni">DNI</label>
+          <input type="number" id="dni" name="dni" placeholder=" Ingrese su DNI" />
 
+          <label for="email">Correo electronico</label>
+          <input type="email" id="email" name="email" placeholder="Ingrese su correo" />
 
-          <label>DNI</label>
+          <label for="number">Numero de telefono</label>
+          <input type="number" id="number" name="number" placeholder="Ingrese su teléfono" />
 
-          <input type="text" placeholder=" Ingrese su DNI" />
+          <label for="cp">Codigo postal</label>
+          <input type="number" id="cp" name="cp" placeholder="Ingrese su código postal" />
 
+          <label for="city" >Ciudad</label>
+          <input type="text" id="city" name="city" placeholder="Ingrese su ciudad" />
 
-          <label>Correo electronico</label>
-
-          <input type="text" placeholder="Ingrese su correo" />
-          <label>Numero de telefono</label>
-
-          <input type="text" placeholder="Ingrese su teléfono" />
-          <label>Codigo postal</label>
-
-          <input type="text" placeholder="Ingrese su código postal" />
-          <label>Ciudad</label>
-
-          <input type="text" placeholder="Ingrese su ciudad" />
-
-          <button class="botonSubmit" type="submit" value="Enviar">Enviar</button>
+          <button type="button" class="btn btn-primary">Enviar</button>
         </form>
 
 
@@ -110,7 +107,7 @@
         <div>
           <label for="email">Ingrese su correo electronico:</label>
           <input type="email" id="email" placeholder="email@ejemplo.com" />
-          <input type="submit" value="Suscribirme" />
+          <button type="button" class="btn btn-success">Suscribirme</button>
         </div>
       </div>
     </footer>
